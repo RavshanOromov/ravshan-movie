@@ -7,9 +7,9 @@ import './app.css'
 
 const App = () => {
   const data = [
-    {name: 'Empire of Usman', viewers: 988, favourite: false },
-    {name: 'Ertugli', viewers: 654, favourite: false },
-    {name: 'Usman', viewers: 877, favourite: true }
+    {name: 'Empire of Usman', viewers: 988, favourite: false, id: 1 },
+    {name: 'Ertugli', viewers: 654, favourite: false, id: 2},
+    {name: 'Usman', viewers: 877, favourite: true, id: 3 }
   ]
 
  return (
